@@ -1,0 +1,53 @@
+this project will allow users to make sales records 
+
+
+INPUT :  		
+Prompt for Customer Number, name, sales amount, tax code 
+Read Customer Number, name, sales amount, tax 
+Prompt for another record  
+
+PROCESSING : 
+
+do while insert record equals yes 
+	IF tax code equals NRM THEN 
+		tax equals 6% 
+	ELSE IF tax code equals NPF 
+		tax equals 0% 
+	ELSE IF tax code equals BIZ  
+		tax equals 405% 
+	ENDIF 
+ENDDO 
+	total equals sales amount + tax 
+
+OUTPUT: 
+
+print Customer ID, Customer Name, Sales Amount, Tax Code, Total 
+
+
+PSEUDOCODE 
+
+Print_Customer_Sales_Record 
+
+Prompt for Customer Number, name, sales amount, tax code 
+Read Customer Number, name, sales amount, tax 
+
+	do while enter record equals yes 
+		IF tax code equals NRM THEN 
+			tax equals 6% 
+		ELSE IF tax code equals NPF 
+			tax equals 0% 
+		ELSE IF tax code equals BIZ  
+			tax equals 405% 
+		ENDIF  
+	
+	print would you like to enter another record ? 
+	READ enter record 
+	
+	ENDDO 
+	
+	total equals sales amount + tax  
+	
+	print Customer ID, Customer Name, Sales Amount , Tax Code, Total
+  	
+
+	
